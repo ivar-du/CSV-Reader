@@ -5,13 +5,21 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>CSV File Uploader for Ethereum main layer</h1>
-  <form id="file-form" action="#" method="post" enctype="multipart/form-data">
-    <input type="file" id="file-input" name="file" accept=".csv">
-    <button type="submit" id="upload-button">Upload</button>
-  </form>
-   <div id="result"></div>
-  <script src="PapaParse-5.0.2/papaparse.min.js"></script>
-  <script src="main.js"></script>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ethmain.html">ETH Main Layer</a></li>
+      <li><a href="erc20.html">ERC-20s</a></li>
+    </ul>
+  </nav>  
+ 
+  <div class="calculator-container">
+    <a href="ethmain.html" class="calculator-box">
+      <div class="calculator-text">ETH Main Layer</div>
+    </a>
+    <a href="erc20.html" class="calculator-box">
+      <div class="calculator-text">ERC-20s</div>
+    </a>
+  </div>
 </body>
 </html>

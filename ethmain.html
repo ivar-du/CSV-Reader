@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV File Uploader</title>
+  <link rel="stylesheet" href="ethstyles.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ethmain.html">ETH Main Layer</a></li>
+          <li><a href="erc20.html">ERC-20s</a></li>
+        </ul>
+      </nav>  
+  <h1>CSV File Uploader for Ethereum main layer</h1>
+  <h3>CSV must be from etherscan*</h3>
+  <form id="file-form" action="#" method="post" enctype="multipart/form-data">
+    <input type="file" id="file-input" name="file" accept=".csv">
+    <button type="submit" id="upload-button">Upload</button>
+  </form>
+   <div id="result"></div>
+  <script src="PapaParse-5.0.2/papaparse.min.js"></script>
+  <script src="eth.js"></script>
+</body>
+</html>

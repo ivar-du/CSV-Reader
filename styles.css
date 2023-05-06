@@ -33,7 +33,85 @@
     padding: 10px;
   }
   
-  #result .column-sum {
-    color: #007bff;
+  #result {
+    color: #4a4a4a;
   }
   
+  .balance-text {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+    color: white;
+  }
+  /* Add this to your existing CSS file or within a <style> tag */
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 2rem;
+}
+
+.calculator-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+}
+/* Add this to your existing CSS file or within a <style> tag */
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 2rem;
+}
+
+.calculator-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calculator-box:hover {
+  background-color: #555;
+}
